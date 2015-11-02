@@ -1,0 +1,31 @@
+{
+  "name": "nodejsapi",
+  "version": "1.0.0",
+  "description": "My API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roemerdt/NodeAPI.git"
+  },
+  "keywords": [
+    "API",
+    "Node",
+    "Javascript"
+  ],
+  "author": "Roemer Blom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roemerdt/NodeAPI/issues"
+  },
+  "homepage": "https://github.com/Roemerdt/NodeAPI#readme",
+  "devDependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.4",
+    "morgan": "^1.6.1"
+  }
+}
