@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 var port = process.env.PORT || 8080;
 
 var mongoose = require('mongoose');
+mongoose.connect('mongodb://root:trias@waffle.modulusmongo.net:27017/o7xEbiqo');
 var Order = require('./models/order');
 
 var router = express.Router();
